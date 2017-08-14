@@ -23,7 +23,7 @@
    <div class="container">
      <div class="row">
 
-     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2" style="padding-left: 0px;">
+     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2">
      <!-- Brand -->
     <div class="brand">
       <a href="index.html">
@@ -86,23 +86,31 @@
           </div>
         </div>
       </div>
-    </div><!-- row -->
+    </div><!-- end Row -->
+
+
     <div class="separator" style="margin-top: 15px"></div>
 
     <div class="row">
       
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+      <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
         <h3 class="info-h3" style="margin-bottom: 40px;">ОСТАТОК</h3>
 	  </div>
 
-	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+	  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
         <div class="row">
-		  	<div class="col-lg-12">
+		  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+		  		<div class=" hidden-lg hidden-md col-sm-12 col-xs-12 pull-right">
+		          <ul class="topic-page" style="text-align: center;">
+		            <li><h3 class="info-h3" style="margin-bottom: 40px;">ОСТАТОК</h3></li>
+		          </ul>
+		        </div>
 
 		  	  	<div style="padding-top: 20px;"></div>
 		  	  	<form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
+				       <label class="control-label col-xs-3">Жидкость:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
@@ -119,8 +127,8 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10">
 			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			              Дата с...<span class="calendar"></span>
 			            </button>
@@ -135,8 +143,8 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12 input-append date">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			                Дата по...<span class="calendar"></span>
 			              </button>
@@ -161,90 +169,25 @@
 		  	</div><!-- End Row -->
 		  </div><!-- End col-lg-9 col-md-9 col-sm-9 col-xs-6 -->
       </div><!-- End Row -->
-	<div class="separator" style="margin-top: 15px"></div>
-    <div class="row">
-      
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-        <h3 class="info-h3" style="margin-bottom: 40px;">ПРИХОД</h3>
-	  </div>
-
-	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
-        <div class="row">
-		  	<div class="col-lg-12">
-
-		  	  	<div style="padding-top: 20px;"></div>
-		  	  	<form class="form-horizontal">
-				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
-				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
-				          <option>Ничего не выбрано</option>
-				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
-				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
-				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
-				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
-				          <option>Мочевина Ufhjgev | 18Y45</option>
-				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
-				          <option>Жидкость тормозная Tunbd | 45E78</option>
-				        </select>
-				      </div><!-- Конец Выбор -->
-			    </form>
-
-			      <div class="col-lg-6">
-			        <form class="form-horizontal">
-			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12">
-			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			              Дата с...<span class="calendar"></span>
-			            </button>
-			            <div class="dropdown-menu" aria-labelledby="dLabel">
-			              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
-			              <input type="hidden" id="datepicker-from-input">
-			            </div>
-			            </div><!-- Конец Выбор -->
-			          </div>
-			        </form>
-			      </div>
-			      <div class="col-lg-6">
-			        <form class="form-horizontal">
-			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12 input-append date">
-			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			                Дата по...<span class="calendar"></span>
-			              </button>
-			              <div class="dropdown-menu" aria-labelledby="dLabel">
-			                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
-			                <input type="hidden" id="datepicker-to-input" >
-			              </div>
-			            </div><!-- Конец Выбор -->
-			            </div>
-			        </form>
-			      </div>
-		      </div>
-
-		      <div class="col-lg-12" style="text-align: center;">
-			      <div class="btn-group" style="padding-top: 27px;">
-			          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
-			          <a href="#" class="btn btn-img btn-excel btn-lg" style="margin-right: 40px;"></a>
-			          <a href="#" class="btn btn-img btn-save-file btn-lg"></a>
-			       </div>
-			  </div>
-
-		  	</div><!-- End Row -->
-		  </div><!-- End col-lg-9 col-md-9 col-sm-9 col-xs-6 -->
-		</div><!-- End Row -->
+ 
 	<div class="separator" style="margin-top: 15px"></div>
 
     <div class="row">
       
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-        <h3 class="info-h3" style="margin-bottom: 40px;">ВЫДАЧА / РАСХОД </h3>
+      <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+        <h3 class="info-h3" style="margin-bottom: 40px;">ПРИХОД / РАСХОД </h3>
 	  </div>
 
-	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+	  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+	  	<div class=" hidden-lg hidden-md col-sm-12 col-xs-12 pull-right">
+		    <ul class="topic-page" style="text-align: center;">
+		       <li><h3 class="info-h3" style="margin-bottom: 40px;">ПРИХОД / РАСХОД</h3></li>
+		    </ul>
+		</div>
+
         <ul class="nav nav-tabs">
-	      <li class="active"><a data-toggle="tab" href="#panel1">Выдача</a></li>
+	      <li class="active"><a data-toggle="tab" href="#panel1">Приход</a></li>
 	      <li><a data-toggle="tab" href="#panel2">Расход</a></li>
 	    </ul>
 
@@ -261,18 +204,11 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
 			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
-			            <option value="1">Поле №1</option>
-			            <option value="2">Поле №2</option>
-			            <option value="3">Поле №3</option>
-			            <option value="4">Поле №4</option>
-			            <option value="5">Поле №5</option>
-			            <option value="6">Поле №6</option>
-			            <option value="8">Поле №8</option>
-			            <option value="9">Поле №9</option>
-			            <option value="10">Поле №10</option>
-			            <option value="11">Поле №11</option>
-			            <option value="12">Поле №12</option>
-			            <option value="13">Поле №13</option>
+			            <option value="1">Дата</option>
+			            <option value="2">Ответственный</option>
+			            <option value="3">Жидкость</option>
+			            <option value="4">На склад</option>
+			            <option value="5">В ёмкость</option>
 			          </select>
 			      </div>
 			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -287,7 +223,7 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
 			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
-			            <option value="7">Поле №2</option>
+
 			          </select>
 			      </div>
 			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
@@ -297,11 +233,11 @@
 
 			  <h3 class="info-h3" style="padding-bottom: 20px;">Фильтрация</h3>
 			  <div class="row">
-			  	<div class="col-lg-6">
+			  	<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10">
 			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			              Дата с...<span class="calendar"></span>
 			            </button>
@@ -313,11 +249,11 @@
 			          </div>
 			        </form>
 			      </div>
-			      <div class="col-lg-6">
+			      <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12 input-append date">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			                Дата по...<span class="calendar"></span>
 			              </button>
@@ -331,7 +267,7 @@
 			      </div>
 		  	  	<form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Ответственный:</label>
+				       <label class="control-label col-xs-3">Ответ<wbr>ственный:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Сотрудник №1</option>
@@ -346,7 +282,7 @@
 			    </form>
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
+				       <label class="control-label col-xs-3">Жидкость:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
@@ -378,7 +314,7 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Сначала:</label>
+			            <label class="control-label col-xs-3">Сначала:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                  <option>Дата</option>
@@ -392,7 +328,7 @@
 			       <div class="col-lg-6">
 			       	 <form class="form-horizontal">
 			           <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Затем по:</label>
+			            <label class="control-label col-xs-3">Затем по:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                </select>
@@ -424,18 +360,13 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
 			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
-			            <option value="1">Поле №1</option>
-			            <option value="2">Поле №2</option>
-			            <option value="3">Поле №3</option>
-			            <option value="4">Поле №4</option>
-			            <option value="5">Поле №5</option>
-			            <option value="6">Поле №6</option>
-			            <option value="8">Поле №8</option>
-			            <option value="9">Поле №9</option>
-			            <option value="10">Поле №10</option>
-			            <option value="11">Поле №11</option>
-			            <option value="12">Поле №12</option>
-			            <option value="13">Поле №13</option>
+			            <option value="1">Дата</option>
+			            <option value="2">Ответственный</option>
+			            <option value="3">Жидкость</option>
+			            <option value="4">Пистолет</option>
+			            <option value="5">Зона</option>
+			            <option value="6">Авто</option>
+			            <option value="8">ТО</option>
 			          </select>
 			      </div>
 			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -450,7 +381,7 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
 			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
-			            <option value="7">Поле №2</option>
+
 			          </select>
 			      </div>
 			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
@@ -463,8 +394,8 @@
 			  	<div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10">
 			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			              Дата с...<span class="calendar"></span>
 			            </button>
@@ -479,8 +410,8 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12 input-append date">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			                Дата по...<span class="calendar"></span>
 			              </button>
@@ -494,7 +425,7 @@
 			      </div>
 		  	  	<form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Ответственный:</label>
+				       <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Сотрудник №1</option>
@@ -509,7 +440,7 @@
 			    </form>
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
+				       <label class="control-label col-xs-3">Жидкость:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
@@ -525,7 +456,7 @@
 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Зона:</label>
+				       <label class="control-label col-xs-3">Зона:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Зона №1</option>
@@ -536,7 +467,7 @@
 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Пистолет:</label>
+				       <label class="control-label col-xs-3">Пистолет:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Пистолет №1</option>
@@ -550,7 +481,7 @@
 			    <form class="form-horizontal">
 				    <div class="form-group">
 			            <label class="control-label col-xs-3">Авто:</label>
-			            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-8" style="padding-left: 0px;">
+			            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-8">
 			              <input class="form-control" placeholder="Госномер авто ...">
 			            </div>
 			        </div>
@@ -558,7 +489,7 @@
 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">ТО:</label>
+				       <label class="control-label col-xs-3">ТО:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>ТО №1</option>
@@ -581,7 +512,7 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Сначала:</label>
+			            <label class="control-label col-xs-3">Сначала:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                  <option>Дата</option>
@@ -595,7 +526,7 @@
 			       <div class="col-lg-6">
 			       	 <form class="form-horizontal">
 			           <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Затем по:</label>
+			            <label class="control-label col-xs-3">Затем по:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                </select>
@@ -606,15 +537,6 @@
 
 		      </div>
 		  	</div>
-
-		     <div class="col-lg-12" style="text-align: center;">
-		        <div class="btn-group" style="padding-top: 27px;">
-		          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
-		          <a href="#" class="btn btn-img btn-excel btn-lg" style="margin-right: 40px;"></a>
-		          <a href="#" class="btn btn-img btn-save-file btn-lg"></a>
-		        </div>
-		     </div>
-		  </div>
 		  
 		    <div class="col-lg-12" style="text-align: center;">
 		        <div class="btn-group" style="padding-top: 27px;">
@@ -633,11 +555,19 @@
 
     <div class="row">
       
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+      <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
         <h3 class="info-h3" style="margin-bottom: 40px;">СПИСКИ </h3>
 	  </div>
 
-	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+	  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+	  	<div class=" hidden-lg hidden-md col-sm-12 col-xs-12 pull-right">
+		    <ul class="topic-page" style="text-align: center;">
+		       <li><h3 class="info-h3" style="margin-bottom: 40px;">СПИСКИ</h3></li>
+		    </ul>
+		</div>
+
+
         <ul class="nav nav-tabs">
 	      <li class="active"><a data-toggle="tab" href="#panel3">Задания</a></li>
 	      <li><a data-toggle="tab" href="#panel4">Сотрудники</a></li>
@@ -649,6 +579,7 @@
 	    </ul>
 
 	    <div class="tab-content">
+	      <!-- вкладка Задания -->
 		  <div id="panel3" class="tab-pane fade in active">
 
 		  	<div class="row">
@@ -661,18 +592,16 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
 			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
-			            <option value="1">Поле №1</option>
-			            <option value="2">Поле №2</option>
-			            <option value="3">Поле №3</option>
-			            <option value="4">Поле №4</option>
-			            <option value="5">Поле №5</option>
-			            <option value="6">Поле №6</option>
-			            <option value="8">Поле №8</option>
-			            <option value="9">Поле №9</option>
-			            <option value="10">Поле №10</option>
-			            <option value="11">Поле №11</option>
-			            <option value="12">Поле №12</option>
-			            <option value="13">Поле №13</option>
+			            <option value="1"Номер</option>
+			            <option value="2">Номер задания</option>
+			            <option value="3">Зона</option>
+			            <option value="4">Пистолет</option>
+			            <option value="5">Жидкость</option>
+			            <option value="6">К выдаче</option>
+			            <option value="8">Выдано</option>
+			            <option value="9">Ответственный</option>
+			            <option value="10">Статус</option>
+			            <option value="11">Примечание</option>
 			          </select>
 			      </div>
 			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -687,7 +616,6 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
 			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
-			            <option value="7">Поле №2</option>
 			          </select>
 			      </div>
 			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
@@ -700,8 +628,8 @@
 			  	<div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			              Дата с...<span class="calendar"></span>
 			            </button>
@@ -716,8 +644,8 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12 input-append date">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			                Дата по...<span class="calendar"></span>
 			              </button>
@@ -731,7 +659,7 @@
 			      </div>
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
+				       <label class="control-label col-xs-3">Жидкость:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
@@ -747,7 +675,7 @@
 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Зона выдачи:</label>
+				       <label class="control-label col-xs-3">Зона выдачи:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Зона №1</option>
@@ -758,7 +686,7 @@
 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Пистолет:</label>
+				       <label class="control-label col-xs-3">Пистолет:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Пистолет №1</option>
@@ -771,7 +699,7 @@
 
 				<form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Ответственный:</label>
+				       <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Сотрудник №1</option>
@@ -801,7 +729,7 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Сначала:</label>
+			            <label class="control-label col-xs-3">Сначала:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                  <option>Дата</option>
@@ -815,7 +743,7 @@
 			       <div class="col-lg-6">
 			       	 <form class="form-horizontal">
 			           <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Затем по:</label>
+			            <label class="control-label col-xs-3">Затем по:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                </select>
@@ -835,6 +763,8 @@
 		        </div>
 		     </div>
 		  </div>
+
+		  <!-- вкладка Сотрудники -->
 		  <div id="panel4" class="tab-pane fade">
 
 		    <div class="row">
@@ -847,18 +777,13 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
 			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
-			            <option value="1">Поле №1</option>
-			            <option value="2">Поле №2</option>
-			            <option value="3">Поле №3</option>
-			            <option value="4">Поле №4</option>
-			            <option value="5">Поле №5</option>
-			            <option value="6">Поле №6</option>
-			            <option value="8">Поле №8</option>
-			            <option value="9">Поле №9</option>
-			            <option value="10">Поле №10</option>
-			            <option value="11">Поле №11</option>
-			            <option value="12">Поле №12</option>
-			            <option value="13">Поле №13</option>
+			            <option value="1">Номер</option>
+			            <option value="2">Логин</option>
+			            <option value="3">ФИО</option>
+			            <option value="4">Код 1С</option>
+			            <option value="5">Должность</option>
+			            <option value="6">Зона</option>
+			            <option value="8">Пистолет</option>
 			          </select>
 			      </div>
 			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -873,7 +798,7 @@
 			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
 			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
-			            <option value="7">Поле №2</option>
+
 			          </select>
 			      </div>
 			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
@@ -886,8 +811,8 @@
 			  	<div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			              Дата с...<span class="calendar"></span>
 			            </button>
@@ -902,8 +827,8 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-12 input-append date">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
 			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			                Дата по...<span class="calendar"></span>
 			              </button>
@@ -918,7 +843,23 @@
 		  	 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Зона:</label>
+				       <label class="control-label col-xs-3">Жидкость:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+				          <option>Мочевина Ufhjgev | 18Y45</option>
+				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+				          <option>Жидкость тормозная Tunbd | 45E78</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Зона выдачи:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Зона №1</option>
@@ -929,13 +870,24 @@
 
 			    <form class="form-horizontal">
 				    <div class="form-group">
-				       <label class="control-label col-xs-3" style="padding-left: 0px;">Пистолет:</label>
+				       <label class="control-label col-xs-3">Пистолет:</label>
 				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 				          <option>Ничего не выбрано</option>
 				          <option>Пистолет №1</option>
 				          <option>Пистолет №2</option>
 				          <option>Пистолет №3</option>
 				          <option>Пистолет №4</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+				<form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Сотрудник №1</option>
+				          <option>Сотрудник №2</option>
 				        </select>
 				      </div><!-- Конец Выбор -->
 			    </form>
@@ -948,7 +900,7 @@
 			      <div class="col-lg-6">
 			        <form class="form-horizontal">
 			          <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Сначала:</label>
+			            <label class="control-label col-xs-3">Сначала:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                  <option>Дата</option>
@@ -962,7 +914,7 @@
 			       <div class="col-lg-6">
 			       	 <form class="form-horizontal">
 			           <div class="form-group" style="padding-top: 17px;">
-			            <label class="control-label col-xs-3" style="padding-left: 0px;">Затем по:</label>
+			            <label class="control-label col-xs-3">Затем по:</label>
 			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
 			                  <option>Ничего не выбрано</option>
 			                </select>
@@ -982,7 +934,163 @@
 		        </div>
 		     </div>
 		  </div>
+
 		  <div id="panel5" class="tab-pane fade">
+		  <!-- вкладка Жидкости -->
+		    <div class="row">
+		  	  <div class="col-lg-12">
+
+		  	  	<div style="padding-top: 20px;"></div>
+
+		  	  	<h3 class="info-h3">Выбор значения полей отчета</h3>
+		  	  	<div class="row rich-select" style="margin-top: 15px;">
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
+			            <option value="1">Артикул</option>
+			            <option value="2">Наименование</option>
+			            <option value="3">Код 1С</option>
+			            <option value="4">Пистолет</option>
+			          </select>
+			      </div>
+			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+			            <label class="control-label col-xs-3">Действие</label>
+			            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+			                <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
+			                <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
+			            </div>
+			        </div>
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
+			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+			          </select>
+			      </div>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
+			  </div>
+			  <div class="separator" style="margin-top: 15px"></div>
+
+			  <h3 class="info-h3" style="padding-bottom: 20px;">Фильтрация</h3>
+			  <div class="row">
+			  	<div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			              Дата с...<span class="calendar"></span>
+			            </button>
+			            <div class="dropdown-menu" aria-labelledby="dLabel">
+			              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+			              <input type="hidden" id="datepicker-from-input">
+			            </div>
+			            </div><!-- Конец Выбор -->
+			          </div>
+			        </form>
+			      </div>
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                Дата по...<span class="calendar"></span>
+			              </button>
+			              <div class="dropdown-menu" aria-labelledby="dLabel">
+			                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+			                <input type="hidden" id="datepicker-to-input" >
+			              </div>
+			            </div><!-- Конец Выбор -->
+			            </div>
+			        </form>
+			      </div>
+		  	 
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Жидкость:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+				          <option>Мочевина Ufhjgev | 18Y45</option>
+				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+				          <option>Жидкость тормозная Tunbd | 45E78</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Зона выдачи:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Зона №1</option>
+				          <option>Зона №2</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Пистолет:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Пистолет №1</option>
+				          <option>Пистолет №2</option>
+				          <option>Пистолет №3</option>
+				          <option>Пистолет №4</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+				<form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Сотрудник №1</option>
+				          <option>Сотрудник №2</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+				
+			</div>
+
+			<div class="separator" style="margin-top: 15px"></div>
+			 <h3 class="info-h3" style="padding-bottom: 20px;">Сортировка</h3>
+				<div class="row">
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Сначала:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                  <option>Дата</option>
+			                  <option>Должность</option>
+			                  <option>Зона выдачи</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			         </form>
+			       </div>
+
+			       <div class="col-lg-6">
+			       	 <form class="form-horizontal">
+			           <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Затем по:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			        </form>
+			      </div>
+			     </div>
+
+		      </div>
+		  	</div>
 		    <div class="col-lg-12" style="text-align: center;">
 		        <div class="btn-group" style="padding-top: 27px;">
 		          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
@@ -992,6 +1100,160 @@
 		     </div>
 		  </div>
 		  <div id="panel6" class="tab-pane fade">
+		  <!-- вкладка Зоны выдачи -->
+		    <div class="row">
+		  	  <div class="col-lg-12">
+
+		  	  	<div style="padding-top: 20px;"></div>
+
+		  	  	<h3 class="info-h3">Выбор значения полей отчета</h3>
+		  	  	<div class="row rich-select" style="margin-top: 15px;">
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
+			            <option value="1">№ зоны</option>
+			            <option value="2">Наименование зоны</option>
+			            <option value="4">Пистолет</option>
+			          </select>
+			      </div>
+			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+			            <label class="control-label col-xs-3">Действие</label>
+			            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+			                <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
+			                <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
+			            </div>
+			        </div>
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
+			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+			          </select>
+			      </div>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
+			  </div>
+			  <div class="separator" style="margin-top: 15px"></div>
+
+			  <h3 class="info-h3" style="padding-bottom: 20px;">Фильтрация</h3>
+			  <div class="row">
+			  	<div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			              Дата с...<span class="calendar"></span>
+			            </button>
+			            <div class="dropdown-menu" aria-labelledby="dLabel">
+			              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+			              <input type="hidden" id="datepicker-from-input">
+			            </div>
+			            </div><!-- Конец Выбор -->
+			          </div>
+			        </form>
+			      </div>
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown ccol-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                Дата по...<span class="calendar"></span>
+			              </button>
+			              <div class="dropdown-menu" aria-labelledby="dLabel">
+			                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+			                <input type="hidden" id="datepicker-to-input" >
+			              </div>
+			            </div><!-- Конец Выбор -->
+			            </div>
+			        </form>
+			      </div>
+		  	 
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Жидкость:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+				          <option>Мочевина Ufhjgev | 18Y45</option>
+				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+				          <option>Жидкость тормозная Tunbd | 45E78</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Зона выдачи:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Зона №1</option>
+				          <option>Зона №2</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Пистолет:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Пистолет №1</option>
+				          <option>Пистолет №2</option>
+				          <option>Пистолет №3</option>
+				          <option>Пистолет №4</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+				<form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Сотрудник №1</option>
+				          <option>Сотрудник №2</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+				
+			</div>
+
+			<div class="separator" style="margin-top: 15px"></div>
+			 <h3 class="info-h3" style="padding-bottom: 20px;">Сортировка</h3>
+				<div class="row">
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Сначала:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                  <option>Дата</option>
+			                  <option>Должность</option>
+			                  <option>Зона выдачи</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			         </form>
+			       </div>
+
+			       <div class="col-lg-6">
+			       	 <form class="form-horizontal">
+			           <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Затем по:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			        </form>
+			      </div>
+			     </div>
+
+		      </div>
+		  	</div>
 		    <div class="col-lg-12" style="text-align: center;">
 		        <div class="btn-group" style="padding-top: 27px;">
 		          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
@@ -1001,6 +1263,163 @@
 		     </div>
 		  </div> 
 		  <div id="panel7" class="tab-pane fade">
+		  <!-- вкладка Точки выдачи -->
+		    <div class="row">
+		  	  <div class="col-lg-12">
+
+		  	  	<div style="padding-top: 20px;"></div>
+
+		  	  	<h3 class="info-h3">Выбор значения полей отчета</h3>
+		  	  	<div class="row rich-select" style="margin-top: 15px;">
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;"> 
+			            <option value="1">№ пистолета</option>
+			            <option value="2">Порт ПЛК</option>
+			            <option value="3">Наименование ПЛК</option>
+			            <option value="4">Артикул жидкости</option>
+			            <option value="5">Зона</option>
+			            <option value="6">Взаимосвязь с другими пистолетами</option>
+			          </select>
+			      </div>
+			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+			            <label class="control-label col-xs-3">Действие</label>
+			            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+			                <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
+			                <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
+			            </div>
+			        </div>
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
+			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+			          </select>
+			      </div>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
+			  </div>
+			  <div class="separator" style="margin-top: 15px"></div>
+
+			  <h3 class="info-h3" style="padding-bottom: 20px;">Фильтрация</h3>
+			  <div class="row">
+			  	<div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			              Дата с...<span class="calendar"></span>
+			            </button>
+			            <div class="dropdown-menu" aria-labelledby="dLabel">
+			              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+			              <input type="hidden" id="datepicker-from-input">
+			            </div>
+			            </div><!-- Конец Выбор -->
+			          </div>
+			        </form>
+			      </div>
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                Дата по...<span class="calendar"></span>
+			              </button>
+			              <div class="dropdown-menu" aria-labelledby="dLabel">
+			                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+			                <input type="hidden" id="datepicker-to-input" >
+			              </div>
+			            </div><!-- Конец Выбор -->
+			            </div>
+			        </form>
+			      </div>
+		  	 
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Жидкость:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+				          <option>Мочевина Ufhjgev | 18Y45</option>
+				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+				          <option>Жидкость тормозная Tunbd | 45E78</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Зона выдачи:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Зона №1</option>
+				          <option>Зона №2</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Пистолет:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Пистолет №1</option>
+				          <option>Пистолет №2</option>
+				          <option>Пистолет №3</option>
+				          <option>Пистолет №4</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+
+				<form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Сотрудник №1</option>
+				          <option>Сотрудник №2</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+				
+			</div>
+
+			<div class="separator" style="margin-top: 15px"></div>
+			 <h3 class="info-h3" style="padding-bottom: 20px;">Сортировка</h3>
+				<div class="row">
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Сначала:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                  <option>Дата</option>
+			                  <option>Должность</option>
+			                  <option>Зона выдачи</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			         </form>
+			       </div>
+
+			       <div class="col-lg-6">
+			       	 <form class="form-horizontal">
+			           <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Затем по:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			        </form>
+			      </div>
+			     </div>
+
+		      </div>
+		  	</div>
 		    <div class="col-lg-12" style="text-align: center;">
 		        <div class="btn-group" style="padding-top: 27px;">
 		          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
@@ -1010,6 +1429,130 @@
 		     </div>
 		  </div>
 		  <div id="panel8" class="tab-pane fade">
+		  <!-- вкладка Авто -->
+		    <div class="row">
+		  	  <div class="col-lg-12">
+
+		  	  	<div style="padding-top: 20px;"></div>
+
+		  	  	<h3 class="info-h3">Выбор значения полей отчета</h3>
+		  	  	<div class="row rich-select" style="margin-top: 15px;">
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;"> 
+			            <option value="1">Номер</option>
+			            <option value="2">Гос. номер</option>
+			            <option value="3">Инвент. номер</option>
+			            <option value="4">Наименование</option>
+			            <option value="5">Модель</option>
+			            <option value="6">Используемые жидкости</option>
+			            <option value="7">Код 1С</option>
+			            <option value="8">Примечание</option>
+			          </select>
+			      </div>
+			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+			            <label class="control-label col-xs-3">Действие</label>
+			            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+			                <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
+			                <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
+			            </div>
+			        </div>
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
+			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+			          </select>
+			      </div>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
+			  </div>
+			  <div class="separator" style="margin-top: 15px"></div>
+
+			  <h3 class="info-h3" style="padding-bottom: 20px;">Фильтрация</h3>
+			  <div class="row">
+			  	<div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			              Дата с...<span class="calendar"></span>
+			            </button>
+			            <div class="dropdown-menu" aria-labelledby="dLabel">
+			              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+			              <input type="hidden" id="datepicker-from-input">
+			            </div>
+			            </div><!-- Конец Выбор -->
+			          </div>
+			        </form>
+			      </div>
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                Дата по...<span class="calendar"></span>
+			              </button>
+			              <div class="dropdown-menu" aria-labelledby="dLabel">
+			                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+			                <input type="hidden" id="datepicker-to-input" >
+			              </div>
+			            </div><!-- Конец Выбор -->
+			            </div>
+			        </form>
+			      </div>
+		  	 
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Жидкость:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+				          <option>Мочевина Ufhjgev | 18Y45</option>
+				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+				          <option>Жидкость тормозная Tunbd | 45E78</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+				
+			</div>
+
+			<div class="separator" style="margin-top: 15px"></div>
+			 <h3 class="info-h3" style="padding-bottom: 20px;">Сортировка</h3>
+				<div class="row">
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Сначала:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                  <option>Дата</option>
+			                  <option>Должность</option>
+			                  <option>Зона выдачи</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			         </form>
+			       </div>
+
+			       <div class="col-lg-6">
+			       	 <form class="form-horizontal">
+			           <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Затем по:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			        </form>
+			      </div>
+			     </div>
+
+		      </div>
+		  	</div>
 		    <div class="col-lg-12" style="text-align: center;">
 		        <div class="btn-group" style="padding-top: 27px;">
 		          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
@@ -1019,6 +1562,126 @@
 		     </div>
 		  </div>
 		  <div id="panel9" class="tab-pane fade">
+		  <!-- вкладка ТО -->
+		    <div class="row">
+		  	  <div class="col-lg-12">
+
+		  	  	<div style="padding-top: 20px;"></div>
+
+		  	  	<h3 class="info-h3">Выбор значения полей отчета</h3>
+		  	  	<div class="row rich-select" style="margin-top: 15px;">
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+			          <select multiple="true" class="form-control input-lg select-false" style="height: 200px;"> 
+			            <option value="1">Наименование ТО</option>
+			            <option value="2">Работы</option>
+			            <option value="3">Код 1С</option>
+			            <option value="8">Примечание</option>
+			          </select>
+			      </div>
+			      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+			            <label class="control-label col-xs-3">Действие</label>
+			            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+			                <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
+			                <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
+			                <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
+			            </div>
+			        </div>
+			        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+			          <label class="control-label col-md-8 col-sm-8 col-xs-6">Выбранные поля</label>
+			          <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+			          </select>
+			      </div>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
+			      <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
+			  </div>
+			  <div class="separator" style="margin-top: 15px"></div>
+
+			  <h3 class="info-h3" style="padding-bottom: 20px;">Фильтрация</h3>
+			  <div class="row">
+			  	<div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период с:</label>
+			            <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			            <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			              Дата с...<span class="calendar"></span>
+			            </button>
+			            <div class="dropdown-menu" aria-labelledby="dLabel">
+			              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+			              <input type="hidden" id="datepicker-from-input">
+			            </div>
+			            </div><!-- Конец Выбор -->
+			          </div>
+			        </form>
+			      </div>
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group">
+			            <label class="control-label col-xs-3">Период по:</label>
+			             <div class="dropdown col-lg-8 col-sm-6 col-md-6 col-xs-10 input-append date">
+			              <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			                Дата по...<span class="calendar"></span>
+			              </button>
+			              <div class="dropdown-menu" aria-labelledby="dLabel">
+			                <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+			                <input type="hidden" id="datepicker-to-input" >
+			              </div>
+			            </div><!-- Конец Выбор -->
+			            </div>
+			        </form>
+			      </div>
+		  	 
+			    <form class="form-horizontal">
+				    <div class="form-group">
+				       <label class="control-label col-xs-3">Жидкость:</label>
+				        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+				          <option>Ничего не выбрано</option>
+				          <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+				          <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+				          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+				          <option>Мочевина Ufhjgev | 18Y45</option>
+				          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+				          <option>Жидкость тормозная Tunbd | 45E78</option>
+				        </select>
+				      </div><!-- Конец Выбор -->
+			    </form>
+				
+			</div>
+
+			<div class="separator" style="margin-top: 15px"></div>
+			 <h3 class="info-h3" style="padding-bottom: 20px;">Сортировка</h3>
+				<div class="row">
+			      <div class="col-lg-6">
+			        <form class="form-horizontal">
+			          <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Сначала:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                  <option>Дата</option>
+			                  <option>Должность</option>
+			                  <option>Зона выдачи</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			         </form>
+			       </div>
+
+			       <div class="col-lg-6">
+			       	 <form class="form-horizontal">
+			           <div class="form-group" style="padding-top: 17px;">
+			            <label class="control-label col-xs-3">Затем по:</label>
+			              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+			                  <option>Ничего не выбрано</option>
+			                </select>
+			              </div><!-- Конец Выбор -->
+			        </form>
+			      </div>
+			     </div>
+
+		      </div>
+		  	</div>
 		    <div class="col-lg-12" style="text-align: center;">
 		        <div class="btn-group" style="padding-top: 27px;">
 		          <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
