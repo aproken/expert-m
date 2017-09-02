@@ -10,6 +10,8 @@ table.scroll {
   width: 100%;
 }
 
+
+
 .table-wrapper > .col-select {
   position: absolute;
   right: 0;
@@ -336,3 +338,20 @@ table.scroll thead { display: block; }
 
 
 */
+
+@media all and (max-width: 680px) {
+  .table-wrapper {
+     overflow: scroll;
+  }
+  .table-wrapper table td {
+    // width: auto;
+    padding: 2px;
+  }
+  .table-wrapper > table input {
+    width: 80px;
+  }
+}
+
+.dispense-ctr-cell {
+  min-width: 170px;
+}

@@ -7,6 +7,8 @@
 .dropdown button {
   height: 34px;
   width: 100%;
+  width: calc(100% + 30px);
+  margin-left: -15px;
   background: linear-gradient(180deg, #ebebed , #cecfd3);
   border-radius: 10px;
   border: 1px solid #8f8f8f;
@@ -27,9 +29,15 @@
   border-left: 1px solid #8f8f8f;
   height: 100%;
   position: absolute;
-  right: 15px;
+  right: 5px;
   top: 0;
   width: 35px;
   background: url(../img/calendar.svg) no-repeat center;
   background-size: 60%;
+}
+
+
+.rich-select .rich-select-btn {
+  margin-top: 30px;
+  text-align: center;
 }

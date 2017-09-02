@@ -347,6 +347,14 @@ body {
   background: url(../img/icon-vizor-setting.svg) no-repeat;
 }
 
+.set-block-bd-avto {
+  background: url(../img/icon-avto.svg) no-repeat;
+}
+
+.set-block-bd-to {
+  background: url(../img/icon-to.svg) no-repeat;
+}
+
 .setting-h4, .setting-h5 {
   color: #333333;
   font-family: "URWGothicL-Book";
@@ -972,7 +980,7 @@ body {
 .detail-desp-fluid-volume > .fluid-day,
 .detail-desp-fluid-volume > .container-3,
 .detail-desp-fluid-volume > .fluid-state-label {
-	padding-left: 70px;
+	padding-left: 90px;
 }
 
 
@@ -1294,4 +1302,16 @@ select option:focus
 .plashka {
   background-color: #e3e4e8;
   border: 1px solid #b6b6b6;
+}
+
+@media all and (max-width: 430px) {
+  .container-fluid.desp-info-container>.row>.col-xs-6 {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .header-select-area{
+    line-height: 65px;
+  }
 }

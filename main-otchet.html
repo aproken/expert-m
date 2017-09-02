@@ -23,7 +23,7 @@
    <div class="container">
      <div class="row">
 
-     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2" style="padding-left: 0px;">
+     <div class="col-lg-5 col-sm-5 col-md-5 col-xs-2">
      <!-- Brand -->
     <div class="brand">
       <a href="index.html">
@@ -95,11 +95,11 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <form class="form-horizontal">
           <div class="form-group">
-            <label class="control-label col-xs-3" style="padding-left: 0px;">Период с:</label>
-            <div class="dropdown col-lg-6 col-sm-4 col-md-4 col-xs-8">
+            <label class="control-label col-xs-3">Период с:</label>
+            <div class="dropdown col-lg-6 col-sm-4 col-md-6 col-xs-8">
             <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Дата с...<span class="calendar"></span>
             </button>
@@ -111,11 +111,11 @@
           </div>
         </form>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <form class="form-horizontal">
           <div class="form-group">
-            <label class="control-label col-xs-3" style="padding-left: 0px;">Период по:</label>
-             <div class="dropdown col-lg-6 col-sm-4 col-md-4 col-xs-8 input-append date">
+            <label class="control-label col-xs-3">Период по:</label>
+             <div class="dropdown col-lg-6 col-sm-4 col-md-6 col-xs-8 input-append date">
               <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Дата по...<span class="calendar"></span>
               </button>
@@ -127,13 +127,12 @@
             </div>
         </form>
       </div>
-  </div>
-  <div class="row">
+
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <form class="form-horizontal">
           <div class="form-group">
-            <label class="control-label col-xs-3" style="padding-left: 0px;">Жидкость:</label>
-              <select class="col-lg-8 col-sm-6 col-md-6 col-xs-8">
+            <label class="control-label col-xs-3">Жидкость:</label>
+              <select class="col-lg-8 col-sm-8 col-md-8 col-xs-8">
                   <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
                   <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
                   <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
@@ -148,8 +147,8 @@
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <form class="form-horizontal">
           <div class="form-group">
-            <label class="control-label col-xs-3" style="padding-left: 0px;">Пистолет:</label>
-              <select class="col-lg-6 col-sm-4 col-md-4 col-xs-8">
+            <label class="control-label col-xs-3">Пистолет:</label>
+              <select class="col-lg-6 col-sm-4 col-md-6 col-xs-8">
                   <option>Пистолет №1</option>
                   <option>Пистолет №2</option>
                   <option>Пистолет №3</option>
@@ -169,18 +168,20 @@
               </div><!-- Конец Выбор -->
         </form>
       </div>
-      <form class="form-horizontal">
-	      <div class="form-group">
-	            <label class="control-label col-xs-3" style="padding-left: 0px;">Причина остановки:</label>
-	              <select class="col-lg-3 col-sm-4 col-md-4 col-xs-8">
-	                  <option>Причина №1</option>
-	                  <option>Причина №2</option>
-	                  <option>Причина №3</option>
-	                  <option>Причина №4</option>
-	                  <option>Причина №5</option>
-	                </select>
-	      </div><!-- Конец Выбор -->
-	    </form>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <form class="form-horizontal">
+  	      <div class="form-group">
+  	            <label class="control-label col-xs-3">Причина остановки:</label>
+  	              <select class="col-lg-6 col-sm-4 col-md-6 col-xs-8">
+  	                  <option>Причина №1</option>
+  	                  <option>Причина №2</option>
+  	                  <option>Причина №3</option>
+  	                  <option>Причина №4</option>
+  	                  <option>Причина №5</option>
+  	                </select>
+  	      </div><!-- Конец Выбор -->
+  	    </form>
+      </div>
   </div>
 
   <div class="separator" style="margin-top: 15px"></div>
@@ -211,7 +212,7 @@
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
             <label class="control-label col-xs-3">Действие</label>
-            <div role="group" class="btn-group-vertical btn-group-lg" style="margin-top: 30px;">
+            <div role="group" class="btn-group-lg rich-select-btn">
                 <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
                 <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
                 <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
@@ -230,17 +231,25 @@
     <div class="separator" style="margin-top: 20px"></div>
 
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h3 class="info-h3" style="margin-bottom: 40px;">СОРТИРОВКА</h3>
       </div>
-      <div class="col-lg-9 col-md-12 col-sm-12 col-xs-9">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="checkbox" style="margin-top: 20px;">
           <label class="checkbox-inline big-checkbox">
             <input type="checkbox"> по жидкости
           </label>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="checkbox" style="margin-top: 20px;">
           <label class="checkbox-inline big-checkbox">
             <input type="checkbox"> номеру пистолета
           </label>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="checkbox" style="margin-top: 20px;">
           <label class="checkbox-inline big-checkbox">
             <input type="checkbox"> причине остановки
           </label>
@@ -249,7 +258,7 @@
     </div>
 
 
-      <div class="col-lg-12" style="text-align: center;">
+      <div class="col-lg-12" style="text-align: center; margin-top: 20px;">
         <div class="btn-group" >
           <a href="#" class="btn btn-img btn-search-otchet btn-lg" style="margin-right: 40px;"></a>
           <a href="#" class="btn btn-img btn-excel btn-lg" style="margin-right: 40px;"></a>
