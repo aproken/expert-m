@@ -69,133 +69,131 @@
 <div id="midle-container">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
         <ul class="topic-page">
           <li><h3 class="main-h3" style="padding-top: 15px;">ПОИСК <span class="text-lowcase">по параметрам:</span></h3></li>
+          <li class="pull-right"><button type="button" class="btn btn-img btn-my-back"></button></li>
         </ul>
-      </div>
-      <div class="col-lg-2"></div>
+    
+    <div class="clearfix"></div>
+    <div class="separator" style="margin-top: 20px"></div>
 
-      <div class="col-lg-4">
-        <div class="btn-toolbar pull-right">
-          <div class="btn-group">
-            <button type="button" class="btn btn-img btn-my-back"></button>
+  <form class="form-horizontal">
+
+    <div class="form-group">
+      <label class="control-label col-xs-3">Жидкость:</label>
+        <select class="col-lg-6 col-sm-6 col-md-6 col-xs-8">
+          <option>Масло моторное Rtfgoiubv wohyabver edgty №1 | 15W78</option>
+          <option>Масло моторное Rtfgoiubv wohyabver edgty №2 | 15W78</option>
+          <option>Масло моторное Rtfgoiubv bnpiuyvc opur №1 | 15W78</option>
+          <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+          <option>Мочевина Ufhjgev | 18Y45</option>
+          <option>Жидкость тормозная Sawernyg | 42Е98</option>
+          <option>Жидкость тормозная Tunbd | 45E78</option>
+        </select>
+    </div><!-- Конец Выбор -->
+
+    <div class="form-group">
+      <label class="control-label col-xs-3">Зона выдачи:</label>
+        <select class="col-lg-4 col-sm-4 col-md-4 col-xs-8">
+          <option>Зона №1</option>
+          <option>Зона №2</option>
+          <option>Зона №3</option>
+        </select>
+    </div><!-- Конец Выбор -->
+
+    <div class="form-group">
+      <label class="control-label col-xs-3">Пистолет:</label>
+        <select class="col-lg-4 col-sm-4 col-md-4 col-xs-8">
+          <option>Пистолет №1</option>
+          <option>Пистолет №2</option>
+          <option>Пистолет №3</option>
+          <option>Пистолет №4</option>
+          <option>Пистолет №5</option>
+          <option>Пистолет №6</option>
+          <option>Пистолет №7</option>
+          <option>Пистолет №8</option>
+          <option>Пистолет №9</option>
+          <option>Пистолет №10</option>
+          <option>Пистолет №11</option>
+          <option>Пистолет №12</option>
+          <option>Пистолет №13</option>
+          <option>Пистолет №14</option>
+          <option>Пистолет №15</option>
+        </select>
+    </div> <!-- Конец Выбор -->  
+
+    <div class="form-group">
+      <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
+        <select class="col-lg-4 col-sm-4 col-md-4 col-xs-8">
+          <option>Иванов И.</option>
+          <option>Николаев В.</option>
+          <option>Константинов К.</option>
+          <option>Савельев В.</option>
+          <option>Петров П.</option>
+        </select>
+    </div><!-- Конец Выбор -->
+  </form>
+
+  <form class="form-horizontal">
+    <div class="form-group">
+    <label class="control-label col-xs-3">Период с:</label>
+        <div class="dropdown col-lg-4 col-sm-4 col-md-4 col-xs-8">
+          <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Дата с...<span class="calendar"></span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dLabel">
+              <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
+                <input type="hidden" id="datepicker-from-input">
+              </div>
+      </div><!-- Конец Выбор -->
+    </div>
+
+    <div class="form-group">
+    <label class="control-label col-xs-3">Период по:</label>
+        <div class="dropdown col-lg-4 col-sm-4 col-md-4 col-xs-8 input-append date">
+          <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Дата по...<span class="calendar"></span>
+          </button>
+            <div class="dropdown-menu" aria-labelledby="dLabel">
+              <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
+                <input type="hidden" id="datepicker-to-input" >
+              </div>
+            </div><!-- Конец Выбор -->
+      </div>
+    </form>
+
+    
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-xs-3">Статус:</label>
+        <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12">
+          <div class="checkbox">
+            <label class="checkbox-inline">
+              <input type="checkbox"> К выдаче
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox"> Выдано
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox"> Просрочено
+            </label>
           </div>
         </div>
-      </div>
+    </div>
+  </form>
 
-    </div><!-- row -->
-    <div class="separator" style="margin-top: 20px"></div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-        <form class="form-horizontal">
-
-          <div class="form-group">
-            <label class="control-label col-xs-3">Жидкость:</label>
-              <select class="col-lg-6 col-sm-6 col-md-6 col-xs-9">
-                  <option>Масло моторное Rtfgoiubv wohyabver edgty №1 | 15W78</option>
-                  <option>Масло моторное Rtfgoiubv wohyabver edgty №2 | 15W78</option>
-                  <option>Масло моторное Rtfgoiubv bnpiuyvc opur №1 | 15W78</option>
-                  <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
-                  <option>Мочевина Ufhjgev | 18Y45</option>
-                  <option>Жидкость тормозная Sawernyg | 42Е98</option>
-                  <option>Жидкость тормозная Tunbd | 45E78</option>
-                </select>
-          </div><!-- Конец Выбор -->
-
-          <div class="form-group">
-            <label class="control-label col-xs-3">Зона выдачи:</label>
-              <select class="col-lg-4 col-sm-4 col-md-4 col-xs-9">
-                  <option>Зона №1</option>
-                  <option>Зона №2</option>
-                  <option>Зона №3</option>
-                </select>
-          </div><!-- Конец Выбор -->
-
-          <div class="form-group">
-            <label class="control-label col-xs-3">Пистолет:</label>
-              <select class="col-lg-4 col-sm-4 col-md-4 col-xs-9">
-                  <option>Пистолет №1</option>
-                  <option>Пистолет №2</option>
-                  <option>Пистолет №3</option>
-                  <option>Пистолет №4</option>
-                  <option>Пистолет №5</option>
-                  <option>Пистолет №6</option>
-                  <option>Пистолет №7</option>
-                  <option>Пистолет №8</option>
-                  <option>Пистолет №9</option>
-                  <option>Пистолет №10</option>
-                  <option>Пистолет №11</option>
-                  <option>Пистолет №12</option>
-                  <option>Пистолет №13</option>
-                  <option>Пистолет №14</option>
-                  <option>Пистолет №15</option>
-              </select>
-            <div class="dropdown col-lg-4 col-sm-4 col-md-4 col-xs-9 col-xs-offset-3 col-sm-offset-0">
-                <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Дата с...<span class="calendar"></span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dLabel">
-                  <div id="datepicker-from"  class="data-pic-input"  data-date="12/03/2012"></div>
-                  <input type="hidden" id="datepicker-from-input">
-                </div>
-            </div><!-- Конец Выбор -->
-            </div>
-
-          <div class="form-group">
-            <label class="control-label col-xs-3">Ответст<wbr>венный:</label>
-              <select class="col-lg-4 col-sm-4 col-md-4 col-xs-9">
-                  <option>Иванов И.</option>
-                  <option>Николаев В.</option>
-                  <option>Константинов К.</option>
-                  <option>Савельев В.</option>
-                  <option>Петров П.</option>
-                </select>
-              <div class="dropdown col-lg-4 col-sm-4 col-md-4 col-xs-9 input-append date col-xs-offset-3 col-sm-offset-0">
-                <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Дата по...<span class="calendar"></span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dLabel">
-                  <div id="datepicker-to" class="data-pic-input" data-date="12/03/2012"></div>
-                  <input type="hidden" id="datepicker-to-input" >
-                </div>
-              </div><!-- Конец Выбор -->
-          </div>
-
-         <div class="form-group">
-           <label class="control-label col-xs-3">Статус:</label>
-              <div class="col-lg-8 col-sm-8 col-md-8 col-xs-12">
-                  <div class="checkbox">
-                    <label class="checkbox-inline">
-                      <input type="checkbox"> К выдаче
-                    </label>
-                    <label class="checkbox-inline">
-                      <input type="checkbox"> Выдано
-                    </label>
-                    <label class="checkbox-inline">
-                      <input type="checkbox"> Просрочено
-                    </label>
-                  </div>
+ <div class="col-lg-12" style="text-align: center;">
+              <div class="btn-group">
+                <a href="#" class="btn btn-img btn-big-cancel btn-lg" style="margin-right: 10px;"></a>
+                <a href="#" class="btn btn-img btn-big-ok btn-lg"></a>
               </div>
-         </div>
-      </form>
-    </div>
-  </div>
-  <div class="row">
-    <div class="header-inner-right">
-      <div class="btn-group">
-        <a href="#" class="btn btn-img btn-big-cancel btn-lg" style="margin-right: 10px;"></a>
-        <a href="#" class="btn btn-img btn-big-ok btn-lg"></a>
-      </div>
-    </div>
+            </div>
   </div>
 </div>
-
-
-  	</div>
+</div>
+</div>
+    
     <!-- This Footer -->
       <div class="footer">
       	<div class="container">
