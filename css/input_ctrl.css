@@ -7,12 +7,13 @@
 .dropdown button {
   height: 34px;
   width: 100%;
-  width: calc(100% + 30px);
-  margin-left: -15px;
+  // width: calc(100% + 30px);
+  // margin-left: -15px;
   background: linear-gradient(180deg, #ebebed , #cecfd3);
   border-radius: 10px;
   border: 1px solid #8f8f8f;
-  padding-right: 34px;
+  // padding-right: 34px;
+  position: relative;
 }
 
 .dropdown button>.arrow {
@@ -40,4 +41,11 @@
 .rich-select .rich-select-btn {
   margin-top: 30px;
   text-align: center;
+}
+
+@media (max-width: 992px){
+  .btn-big-cancel,
+  .btn-big-ok {
+    margin-top: 0.7em;
+  }
 }
