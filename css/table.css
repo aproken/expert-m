@@ -350,6 +350,10 @@ table.scroll thead { display: block; }
   .table-wrapper > table input {
     width: 80px;
   }
+
+  .table-wrapper > table {
+    width: 680px;
+  }
 }
 
 .dispense-ctr-cell {

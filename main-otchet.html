@@ -69,37 +69,24 @@
 <div id="midle-container">
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 col-sm-12 col-md-8 col-xs-12">
+      <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
         <ul class="topic-page">
           <li><img style="float: left;" src="img/icon-otchet.svg" alt="login"/></li>
           <li><h3 class="main-h3" style="padding-top: 15px;">Отчет работоспособности</h3></li>
+          <li class="pull-right"><button type="button" class="btn btn-img btn-reset-otchet"></button></li>
+          <li class="pull-right"><button type="button" class="btn btn-img btn-my-back"></button></li>
         </ul>
-      </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-        <div class="btn-toolbar pull-right">
-          <div class="btn-toolbar pull-right">
-            <div class="btn-group">
-              <button type="button" class="btn btn-img btn-reset-otchet"></button>
-              <button type="button" class="btn btn-img btn-my-back"></button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- row -->
+    <div class="clearfix"></div>
     <div class="separator" style="margin-top: 15px"></div>
 
-    <div class="row">
-      <div class="col-lg-12">
-        <h3 class="info-h3" style="margin-bottom: 40px;">ФИЛЬТРЫ</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-xs-3">Период с:</label>
-            <div class="dropdown col-lg-6 col-sm-4 col-md-6 col-xs-8">
+    <h3 class="info-h3" style="margin-bottom: 40px;">ФИЛЬТРЫ</h3>
+
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label col-xs-12 col-sm-4">Период с:</label>
+            <div class="dropdown col-lg-6 col-sm-4 col-md-6 col-xs-12">
             <button id="dLabel3" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Дата с...<span class="calendar"></span>
             </button>
@@ -114,8 +101,8 @@
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <form class="form-horizontal">
           <div class="form-group">
-            <label class="control-label col-xs-3">Период по:</label>
-             <div class="dropdown col-lg-6 col-sm-4 col-md-6 col-xs-8 input-append date">
+            <label class="control-label col-xs-12 col-sm-4">Период по:</label>
+             <div class="dropdown col-lg-6 col-sm-4 col-md-6 col-xs-12 input-append date">
               <button id="dLabel5" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Дата по...<span class="calendar"></span>
               </button>
@@ -128,57 +115,57 @@
         </form>
       </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <form class="form-horizontal">
+          
           <div class="form-group">
-            <label class="control-label col-xs-3">Жидкость:</label>
-              <select class="col-lg-8 col-sm-8 col-md-8 col-xs-8">
-                  <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
-                  <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
-                  <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
-                  <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
-                  <option>Мочевина Ufhjgev | 18Y45</option>
-                  <option>Жидкость тормозная Sawernyg | 42Е98</option>
-                  <option>Жидкость тормозная Tunbd | 45E78</option>
-              </select>
-            </div><!-- Конец Выбор -->
-        </form>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-xs-3">Пистолет:</label>
-              <select class="col-lg-6 col-sm-4 col-md-6 col-xs-8">
-                  <option>Пистолет №1</option>
-                  <option>Пистолет №2</option>
-                  <option>Пистолет №3</option>
-                  <option>Пистолет №4</option>
-                  <option>Пистолет №5</option>
-                  <option>Пистолет №6</option>
-                  <option>Пистолет №7</option>
-                  <option>Пистолет №8</option>
-                  <option>Пистолет №9</option>
-                  <option>Пистолет №10</option>
-                  <option>Пистолет №11</option>
-                  <option>Пистолет №12</option>
-                  <option>Пистолет №13</option>
-                  <option>Пистолет №14</option>
-                  <option>Пистолет №15</option>
+            <label class="control-label col-xs-12 col-sm-4">Жидкость:</label>
+              <div class="col-lg-6 col-sm-6 col-md-4 col-xs-12">
+                <select class="style-select col-xs-12">
+                    <option>Масло моторное Rtfgoiubv edgty №1 | 15W78</option>
+                    <option>Масло моторное Rtfgoiubv edgty №2 | 15W78</option>
+                    <option>Масло моторное Rtfgoiubv opur №1 | 15W78</option>
+                    <option>Масло моторное Asfiklop xserty №78 | 45W78</option>
+                    <option>Мочевина Ufhjgev | 18Y45</option>
+                    <option>Жидкость тормозная Sawernyg | 42Е98</option>
+                    <option>Жидкость тормозная Tunbd | 45E78</option>
                 </select>
-              </div><!-- Конец Выбор -->
-        </form>
-      </div>
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <form class="form-horizontal">
+              </div>
+          </div><!-- Конец Выбор -->
+
+          <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-4">Пистолет:</label>
+              <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+                <select class="style-select col-xs-12">
+                    <option>Пистолет №1</option>
+                    <option>Пистолет №2</option>
+                    <option>Пистолет №3</option>
+                    <option>Пистолет №4</option>
+                    <option>Пистолет №5</option>
+                    <option>Пистолет №6</option>
+                    <option>Пистолет №7</option>
+                    <option>Пистолет №8</option>
+                    <option>Пистолет №9</option>
+                    <option>Пистолет №10</option>
+                    <option>Пистолет №11</option>
+                    <option>Пистолет №12</option>
+                    <option>Пистолет №13</option>
+                    <option>Пистолет №14</option>
+                    <option>Пистолет №15</option>
+                  </select>
+                </div>
+          </div><!-- Конец Выбор -->
+
   	      <div class="form-group">
-  	            <label class="control-label col-xs-3">Причина остановки:</label>
-  	              <select class="col-lg-6 col-sm-4 col-md-6 col-xs-8">
-  	                  <option>Причина №1</option>
-  	                  <option>Причина №2</option>
-  	                  <option>Причина №3</option>
-  	                  <option>Причина №4</option>
-  	                  <option>Причина №5</option>
-  	                </select>
+  	        <label class="control-label col-xs-12 col-sm-4">Причина остановки:</label>
+  	         <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+                <select class="style-select col-xs-12">
+  	              <option>Причина №1</option>
+  	              <option>Причина №2</option>
+  	              <option>Причина №3</option>
+  	              <option>Причина №4</option>
+  	              <option>Причина №5</option>
+  	            </select>
+              </div>
   	      </div><!-- Конец Выбор -->
   	    </form>
       </div>
@@ -195,7 +182,7 @@
 
     <div class="row rich-select">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все поля</label>
+            <label class="control-label col-md-6 col-sm-6 col-xs-12">Все поля</label>
             <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
               <option value="2">Полное название жидкости</option>
               <option value="3">Краткое название жидкости</option>

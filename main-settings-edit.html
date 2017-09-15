@@ -84,59 +84,47 @@
           </li>
         </ul>
 
-
-
     <div class="clearfix"></div>
     <div class="separator" style="margin-top: 15px"></div>
-    <div class="row">
-      <div class="col-lg-6">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-xs-3">Имя:</label>
-            <div class="col-lg-6 col-sm-4 col-md-4 col-xs-8">
-              <input class="form-control" placeholder="Введите имя">
-            </div>
+
+      <form class="form-horizontal">
+
+        <div class="form-group">
+          <label class="control-label col-xs-12 col-sm-4">Имя:</label>
+          <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+            <input class="form-control" placeholder="Введите имя">
           </div>
-        </form>
-      </div>
-      <div class="col-lg-6">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-xs-3">Тип:</label>
-            <select class="col-lg-6 col-sm-4 col-md-4 col-xs-8">
-                <option>Тип №1</option>
-                <option>Тип №2</option>
-                <option>Тип №3</option>
-                <option>Тип №4</option>
-                <option>Тип №5</option>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-xs-12 col-sm-4">Тип:</label>
+           <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+              <select class="style-select col-xs-12">
+                  <option>Тип №1</option>
+                  <option>Тип №2</option>
+                  <option>Тип №3</option>
+                  <option>Тип №4</option>
+                  <option>Тип №5</option>
               </select>
-            </div><!-- Конец Выбор -->
-        </form>
-      </div>
-  </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-xs-3">IP-адрес:</label>
-            <div class="col-lg-6 col-sm-4 col-md-4 col-xs-8">
+            </div>
+        </div><!-- Конец Выбор -->
+
+        <div class="form-group">
+          <label class="control-label col-xs-12 col-sm-4">IP-адрес:</label>
+            <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+              <input class="form-control" placeholder="Введите имя">
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-xs-12 col-sm-4">MAC-адрес:</label>
+            <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
               <input class="form-control" placeholder="Введите имя">
             </div>
           </div>
         </form>
       </div>
-      <div class="col-lg-6">
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-xs-3">MAC-адрес:</label>
-            <div class="col-lg-6 col-sm-4 col-md-4 col-xs-8">
-              <input class="form-control" placeholder="Введите имя">
-            </div>
-          </div>
-        </form>
-      </div>
-  </div>
-  <div class="row">
+
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
       <div class="container-fluid">
@@ -147,50 +135,56 @@
         <div class="separator" style="margin-top: 15px"></div>
       </div>
     </div>
-  </div>
 
-<div class="row rich-select">
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-            <label class="control-label col-md-6 col-sm-6 col-xs-3">Все линии</label>
-        <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
-          <option value="1">Порт №1</option>
-          <option value="2">Порт №2</option>
-          <option value="3">Порт №3</option>
-          <option value="4">Порт №4</option>
-          <option value="5">Порт №5</option>
-          <option value="6">Порт №6</option>
-          <option value="8">Порт №8</option>
-          <option value="9">Порт №9</option>
-          <option value="10">Порт №10</option>
-          <option value="11">Порт №11</option>
-          <option value="12">Порт №12</option>
-          <option value="13">Порт №13</option>
-        </select>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+<div class="container">
+
+        <div class="row rich-select">
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <label class="control-label col-md-6 col-sm-6 col-xs-12">Все линии</label>
+              <select multiple="true" class="form-control input-lg select-false" style="height: 200px;">
+                <option value="1">Порт №1</option>
+                <option value="2">Порт №2</option>
+                <option value="3">Порт №3</option>
+                <option value="4">Порт №4</option>
+                <option value="5">Порт №5</option>
+                <option value="6">Порт №6</option>
+                <option value="8">Порт №8</option>
+                <option value="9">Порт №9</option>
+                <option value="10">Порт №10</option>
+                <option value="11">Порт №11</option>
+                <option value="12">Порт №12</option>
+                <option value="13">Порт №13</option>
+              </select>
+          </div>
+          
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
             <label class="control-label col-xs-3">Действие</label>
-            <div role="group" class="rich-select-btn btn-group-lg">
+            <div role="group" class="btn-group-lg rich-select-btn">
                 <button type="button" class="btn btn-img btn-choose-one select-to-allow"></button>
                 <button type="button" class="btn btn-img btn-delete-one select-to-deany"></button>
                 <button type="button" class="btn btn-img btn-choose-all all-to-allow"></button>
                 <button type="button" class="btn btn-img btn-delete-all all-to-deany"></button>
             </div>
-        </div>
-    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          </div>
+          
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <label class="control-label col-md-6 col-sm-8 col-xs-6">Выбранные линии</label>
-        <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
-          <option value="7">Порт №7</option>
-        </select>
-    </div>
+              <select multiple="true" class="form-control input-lg select-true" style="height: 200px;">
+                <option value="7">Порт №7</option>
+              </select>
+          </div>
     <p class="col-md-12" style="color:#777; text-align: right;">Примечание: Для массового выделения нажмите <span class="label label-default">Ctrl</span>.</p>
     <p class="col-md-12" style="color:#777; text-align: right;">Доступен перенос поля по двойному щелчку.</p>
-</div>
-<div class="col-lg-12" style="text-align: center;">
-  <div class="btn-group" >
-    <a href="#" class="btn btn-img btn-big-cancel btn-lg" style="margin-right: 10px;"></a>
-    <a href="#" class="btn btn-img btn-big-ok btn-lg"></a>
+        </div>
+        
+        <div class="col-lg-12" style="text-align: center;">
+          <div class="btn-group" >
+            <a href="#" class="btn btn-img btn-big-cancel btn-lg" style="margin-right: 10px;"></a>
+            <a href="#" class="btn btn-img btn-big-ok btn-lg"></a>
+          </div>
+        </div>
   </div>
-</div>
+  </div>
   </div>
   </div>
 
